@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Videos</title>
+    <link rel="stylesheet" href="/styles/sidebar.css">
+</head>
+<body>
+    <div class="container">
+        <h1>View Videos</h1>
+        {{#each videos}}
+            <div class="video-item">
+                <video width="320" height="240" controls>
+                    <source src="{{this.videoPath}}" type="video/webm">
+                </video>
+                <p>{{this.description}}</p>
+            </div>
+        {{/each}}
+    </div>
+</body>
+</html>

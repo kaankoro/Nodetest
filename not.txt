@@ -1,0 +1,6 @@
+layout oluşturulacak
+layout içine header ve footer çekilecek
+layout içine home ve sign up sayfaları çekilecek
+
+Mongo db kurulacak mac içinde servis olarak çalıştırılacak
+User model doldurulacak ad soyad şifre bilmemne
